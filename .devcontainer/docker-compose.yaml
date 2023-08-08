@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+    workspace:
+        image: python:3.9
+        command: sleep infinity
+        container_name: belx-dev
+        volumes:
+            - ../:/usr/src/
+    #     ports: 
+    #         - 8000:8000
+
+    # db:
+    #     image: mysql
+    #     environment:
+    #         - MYSQL_ROOT_PASSWORD=secret
+    #         - MYSQL_USER=niisan
+    #         - MYSQL_DATABASE=niisan
+    #         - MYSQL_PASSWORD=secret

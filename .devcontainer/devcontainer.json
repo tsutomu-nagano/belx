@@ -1,0 +1,10 @@
+{
+    "name": "belx-dev",
+    "dockerComposeFile": "docker-compose.yaml",
+    "service": "workspace",
+    "workspaceFolder": "/usr/src",
+    "settings": {
+        "editor.tabSize": 4
+    },
+    "shutdownAction": "stopCompose"
+}
